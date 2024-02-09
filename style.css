@@ -1,0 +1,77 @@
+:root{
+--whiter:hsl(0, 0%, 100%);
+--Light_gray: hsl(212, 45%, 89%);
+--Grayish_blue: hsl(220, 15%, 55%);
+--Dark_blue: hsl(218, 44%, 22%);
+}
+@font-face {
+    font-family:"Outfit";
+    src: url([Outfit]https://fonts.google.com/specimen/Outfit);
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--Light_gray);
+    
+    
+}
+section{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+main{
+  
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+        background-color: var(--whiter);
+    
+    border-radius: 10px;
+}
+picture{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+picture img{
+    width: 85%;
+    height: auto;
+    border-radius: 10px;
+   
+}
+
+.card_body{
+    text-align: center;
+}
+p{
+    font-size: 15px;
+    color:var(--Grayish_blue)
+}
+.card_body .card_title h3{
+    font-family:"Outfit",serif ;
+    color: var(--Dark_blue);
+   
+}
+.attribution{
+    font-size: small;
+    text-align: center;
+    
+}
+.attribution a{
+    
+    font-weight: 400;
+    line-height: 20px;
+}
+h3{text-align: center;
+
+}
+
+h3 :hover{
+    color:darkcyan;
+  
+}
